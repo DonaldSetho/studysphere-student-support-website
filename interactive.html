@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySphere | Interactive Learning</title>
+    <link rel="icon" type="image" href="images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="StudySphere Logo">
+                <h1>StudySphere</h1>
+            </a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="interactive.html" class="active">Interactive Learning</a></li>
+                <li><a href="contact.php">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Interactive Learning Section -->
+    <section class="interactive-hero">
+        <h2>Interactive Learning Tools</h2>
+        <p>Enhance your study sessions with our engaging tools.</p>
+    </section>
+
+    <!-- Study Timer Section -->
+    <section class="centered-section" id="timer-section">
+        <h2>Study Timer</h2>
+        <div id="timer-display">00:00:00</div>
+        <div class="timer-buttons">
+            <button id="start-btn">Start</button>
+            <button id="pause-btn">Pause</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+    </section>
+
+    <!-- Flashcard Quiz Section -->
+    <section class="centered-section" id="flashcards-section">
+        <h2>Flashcard Quiz</h2>
+        <div class="flashcards-container">
+            <div class="flashcard" data-answer="Paris">
+                <div class="front">What is the keyword used to declare a variable in JavaScript?</div>
+                <div class="back">let, const or var</div>
+            </div>
+            <div class="flashcard" data-answer="Mercury">
+                <div class="front">How do you write a comment in JavaScript?</div>
+                <div class="back">// for single-line comments, /* */ for multi-line comments</div>
+            </div>
+            <div class="flashcard" data-answer="Oxygen">
+                <div class="front">Which method is used to convert a string to a number in JavaScript?</div>
+                <div class="back">Number()</div>
+            </div>
+            <div class="flashcard" data-answer="Mercury">
+                <div class="front">What is the result of typeof true in JavaScript?</div>
+                <div class="back">boolean</div>
+            </div>
+            <div class="flashcard" data-answer="Oxygen">
+                <div class="front">How do you add an element to the end of an array?</div>
+                <div class="back">push()</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="centered-section" id="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <div class="faq-question">What is StudySphere?</div>
+            <div class="faq-answer">StudySphere is an interactive learning platform with study tools and quizzes.</div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Can I track my study time?</div>
+            <div class="faq-answer">Yes! The study timer allows you to start, pause, and reset your study sessions.
+            </div>
+        </div>
+        <div class="faq-item">
+            <div class="faq-question">Are the flashcards customizable?</div>
+            <div class="faq-answer">Currently, we provide default questions, but you can add your own by editing the
+                HTML.</div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 StudySphere | All Rights Reserved</p>
+        <p>Contact: info@studysphere.co.za</p>
+        <div class="social-icons">
+            <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </footer>
+</body>
+
+</html>
