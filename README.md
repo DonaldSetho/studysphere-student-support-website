@@ -27,6 +27,3 @@ Front-end web development
 Basic back-end development
 UI/UX design principles
 Problem solving and analytical thinking
-
-# Project Type
-Academic / Personal Project
